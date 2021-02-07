@@ -1,1 +1,2 @@
-# wi21-cse110-lab5
+# Jerry Waldorf
+# jwaldorf@ucsd.edu
