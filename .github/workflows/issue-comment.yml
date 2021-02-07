@@ -1,4 +1,4 @@
-name: "funny comment"
+name: funny comment
 on:
   issues:
     types: [opened]
@@ -13,5 +13,5 @@ jobs:
         id: FunnyComment
         with:
 	  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-	  GIPHY_TOKEN: ${{ secrets.GIPHY_TOKEN }}
+	  GIPHY_TOKEN: ${{ secrets.GIPHY_KEY }}
 	  comment_type: ‘gif’
