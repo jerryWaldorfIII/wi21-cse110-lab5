@@ -44,16 +44,22 @@ document.getElementById("radio-party-horn").addEventListener("click", partyNoise
 function radioNoise() {
     var sound = document.getElementById("horn-sound");
     sound.src = "./assets/media/audio/air-horn.mp3";
+    var image = document.getElementById("sound-image");
+    image.src = './assets/media/images/air-horn.svg';
 }
 
 function carNoise() {
     var sound = document.getElementById("horn-sound");
     sound.src = "./assets/media/audio/car-horn.mp3";
+    var image = document.getElementById("sound-image");
+    image.src = './assets/media/images/car.svg';
 }
 
 function partyNoise() {
     var sound = document.getElementById("horn-sound");
     sound.src = "./assets/media/audio/party-horn.mp3";
+    var image = document.getElementById("sound-image");
+    image.src = './assets/media/images/party-horn.svg';
 }
 
 document.getElementById("honk-btn").addEventListener("click", makeNoise);
